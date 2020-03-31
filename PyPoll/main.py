@@ -16,8 +16,13 @@ with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
     votecsvheaders = next(csvreader)
     polldata = [stuff for stuff in csvreader]
-    
-
+'''    
+output_path = os.path.join("psv.csv")
+with open(output_path, 'w') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter='💩')
+        for x in range(len(polldata)):
+            csvwriter.writerow(polldata[x])
+'''
 # print(votecsvheaders, polldata[0:3])
 candidate_vote =[stuff[2] for stuff in polldata]
 
