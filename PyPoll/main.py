@@ -62,10 +62,10 @@ print(
     "-------------------------\n",
     f"Total Votes: [tot_votes]\n",
     "-------------------------\n",
-    f"Khan: {khanpct*100:.3f}% ({khanvotes})\n",
-    f"Correy: {correypct*100:.3f}% ({correyvotes})\n"
-    f"Li: {lipct*100:.3f}% ({livotes})\n",
-    f"O'Tooley: {otooleypct*100:.3f}% ({otooleyvotes})\n",
+    f"Khan: {khanpct*100:.1f}% ({khanvotes})\n",
+    f"Correy: {correypct*100:.1f}% ({correyvotes})\n"
+    f"Li: {lipct*100:.1f}% ({livotes})\n",
+    f"O'Tooley: {otooleypct*100:.1f}% ({otooleyvotes})\n",
     "-------------------------\n",
     f"Winner: {winner}\n",
     "-------------------------"
@@ -83,10 +83,10 @@ f.writelines(
        "-------------------------\n",
        f"Total Votes: {total_votes}\n",
        "-------------------------\n",
-       f"Khan: {khanpct:.3f}% ({khanvotes})\n",
-       f"Correy: {correypct:.3f}% ({correyvotes})\n"
-       f"Li: {lipct:.3f}% ({livotes})\n",
-       f"O'Tooley: {otooleypct}% ({otooleyvotes})\n",
+       f"Khan: {khanpct*100:.1f}% ({khanvotes})\n",
+       f"Correy: {correypct*100:.1f}% ({correyvotes})\n"
+       f"Li: {lipct*100:.1f}% ({livotes})\n",
+       f"O'Tooley: {otooleypct*100}% ({otooleyvotes})\n",
        "-------------------------\n",
        f"Winner: {winner}\n",
        "-------------------------"
