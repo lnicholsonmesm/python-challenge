@@ -1,0 +1,8 @@
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578.00
+Greatest Increase in Profits: Feb-2012 ($1926159.00) 
+Greatest Decrease in Profits: Sep-2013 ($-2196167.00)
+
+Revenues for our company were positive; profit and loss totals across months summed to a net profit of $38382578.00, with an average change of $-2315.12. The greatest net positive change in profits were in Feb-2012 at a profit of $1926159.00 and the greatest decrease in profits resulted in Sep-2013 with a net loss of $-2196167.00.
